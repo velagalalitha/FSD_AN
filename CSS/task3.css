@@ -1,0 +1,46 @@
+div{
+	height: 480px;
+	width: 1000px;
+}
+h1{
+	font-size: 25px;
+}
+h3{
+	font-size: 20px;
+}
+input[number]{
+	font-family: bold;
+}
+table{
+	height: 15px;
+	width: 1000px;
+}
+img[src]{
+	border: 0px;
+	padding:0px;
+}
+a[href]{
+	color: darkblue;
+}
+a:hover{
+	color: darkviolet;
+}
+span{
+	background-color: yellow;
+}
+pre{
+	background-color: lightgrey;
+	height: 200px;
+	width: 1000px;
+	font-family: cursive;
+}
+input[type]{
+	width: 100px;
+}
+textarea{
+	columns: 200px;
+	rows: 40px;
+}
+input[type="submit"]{
+	width: 90px;
+}

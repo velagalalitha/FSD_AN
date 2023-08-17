@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>LOOPS</title>
+</head>
+<body>
+        <script>
+        var trainees=[{
+                'name':'LALITHA',
+                'rollno':3456,
+                'college':'ACOE',
+                'branch':'ECE',
+        },
+        {
+                'name':'GLORY',
+                'rollno':1111,
+                'college':'ACOE',
+                'branch':'ECE',
+        },
+        {
+                'name':'MAHI',
+                'rollno':2222,
+                'college':'ACOE',
+                'branch':'ECE',
+        } ,
+        {
+                'name':'ANJALI',
+                'rollno':4444,
+                'college':'ACOE',
+                'branch':'ECE',
+        }]
+        /*for (var i = 0; i < trainees.length; i++) {
+        document.write((i+1)+" . "+trainees[i].name+" <br> "+trainees[i].rollno+" <br> "+trainees[i].college+" <br> "+trainees[i].branch+" <br> ");
+        }*/
+        for (var  i = 0; i<trainees.length; i++) {
+                for(key in trainees[i]){
+                document.write(trainees[i][key]+" ")
+             }
+             document.write("<br>")
+        }      
+        </script>
+</body>
+</html>

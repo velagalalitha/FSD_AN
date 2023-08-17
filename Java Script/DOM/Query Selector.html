@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Query Selector</title>
+</head>
+<body>
+	<h1 id="a">Query Selector method</h1>
+	<p class="b">HTML</p>
+	<p class="b">CSS</p>
+	<p class="b">BS</p>
+	<h2>A H2 elemnt</h2>
+	<h2>A H2 element</h2>
+	<h3>A H3 element</h3>
+<script>
+	const l = document.querySelectorAll(".b,h2");
+	for(let i=0; i<l.length;i++){
+		l[i].style.color="red";
+	}
+
+
+
+
+
+</script> 
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>table</title>
+	<table border="1" cellspacing="1">	
+     <tr>
+     	<td></td>
+     	<td></td>
+     	<td></td>
+     </tr>
+     <tr>
+     	<td></td>
+     	<td></td>
+     	<td></td>
+     </tr>
+     <tr>
+     	<td></td>
+     	<td></td>
+     	<td></td>
+     </tr>	
+	</table>
+</head>
+<body>
+<script>
+	let all_tds= document.getElementsByTagName('td');
+   //k=all_tds.length if no of tds are not defined
+	for (var i = 0; i < all_tds.length; i++) {
+		all_tds[i].innerText = all_tds.length-i;
+	}
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>

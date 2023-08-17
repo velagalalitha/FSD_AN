@@ -1,0 +1,16 @@
+img{
+    height: 70%;
+    width: 100%;
+}
+button{
+    width: 100%;
+}
+.btn btn-primary mt-4{
+    background-color: blueviolet;
+}
+hr{
+    width:100%;
+}
+.A{
+    text-decoration:none ;
+}
